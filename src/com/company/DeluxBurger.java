@@ -15,6 +15,6 @@ public class DeluxBurger extends Burger {
     @Override
     public void totalPrice() {
         int totalPrice =  this.hotDog * 5 + this.coffi * 5 + this.sauce * 5 + this.hotGravy * 5 + total;
-        System.out.println(totalPrice);
+        System.out.println("Total price is" + totalPrice);
     }
 }
